@@ -9,7 +9,7 @@
 }
 
 .wrapper-grey {
-  color: #333333;
+  color: $grey;
 }
 
 .card-category {
@@ -24,14 +24,12 @@
   bottom: 10px;
   left: 10px;
   font-size: 20px;
-}
-
-.card-description h2 {
+  h2 {
   font-size: 22px;
-}
-
-.card-description p {
+  }
+  p {
   font-size: 15px;
+  }
 }
 
 .card-user.avatar {
@@ -51,9 +49,8 @@
   z-index: 2;
   background: black;
   opacity: 0;
-}
-
-.card-link:hover {
+  &:hover {
     opacity: 0.1;
-
+  }
 }
+
